@@ -1,0 +1,46 @@
+{
+  "slug": "agentic-support-copilot",
+  "title": "Agentic Support Copilot",
+  "project_type": "llm",
+  "domain": "Customer Support AI",
+  "summary": "Route issues, summarize conversations, and generate response suggestions for human support teams.",
+  "tags": [
+    "agent",
+    "support",
+    "automation"
+  ],
+  "accent": "#0077b6",
+  "dashboard_metrics": [
+    {
+      "label": "Resolution Rate",
+      "value": "61%",
+      "delta": "+5.8%"
+    },
+    {
+      "label": "Answer Quality",
+      "value": "90%",
+      "delta": "+2.2%"
+    },
+    {
+      "label": "Ops Time Saved",
+      "value": "18h",
+      "delta": "+3h"
+    }
+  ],
+  "sample_features": {
+    "query": "Summarize the highest priority risk and recommended next step.",
+    "audience": "ops"
+  },
+  "sample_metrics": {
+    "acquisition": 19.2,
+    "activation": 25.0,
+    "retention": 40.4,
+    "revenue": 57.4
+  },
+  "knowledge_base": [
+    "Agentic Support Copilot is positioned as a Customer Support AI starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Route issues, summarize conversations, and generate response suggestions for human support teams.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on agent, support, automation."
+  ]
+}
